@@ -6,18 +6,13 @@ body {
 }
 
 .audio-container {
-    /* height: 95vh;
+    /* height: 55vh;  */
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    row-gap: 40px; */
-    height: 92vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     /* row-gap: 1px;*/
+    margin-top:-22px;
 }
 
 /* h1 {
@@ -71,17 +66,26 @@ h6 {
 }
 
 .audio-img {
-    border-radius: 50%;
+    /* border-radius: 50%;
     border: #9C0AEA 9px solid;
     width: 300px;
     height: 300px;
+    padding: 10px; */
+    border-radius: 50%;
+    border: #9C0AEA 9px solid;
+    width: 200px;
+    height: 200px;
     padding: 10px;
 }
 
+.fa-5x {
+    font-size: 4em;
+}
+
 .img {
-    width: 300px;
+    width: 200px;
     border-radius: 50%;
-    height: 300px;
+    height: 200px;
     padding: 0px;
 }
 
@@ -146,13 +150,13 @@ h6 {
 
 @media only screen and (max-width:250px){
     .audio-container {
-        height: 95vh;
+        /* height: 55vh;  */
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: center;
-        row-gap: 40px;
-        width: 396px;
+        /* justify-content: center; */
+        /* row-gap: 1px;*/
+        margin-top:-22px;
     }
     .audio-btns {
         display: flex;
@@ -160,7 +164,7 @@ h6 {
         align-items: center;
         column-gap: 91px;
     }
-    footer{
+    .footer{
         display: flex;
     justify-content: center;
     text-align: center;
@@ -170,7 +174,7 @@ h6 {
 }
 
 @media only screen and (min-width:250px) and (max-width:450px){
-    footer{
+    .footer{
         text-align: center;
         display: flex;
         justify-content: center;
@@ -186,18 +190,18 @@ h6 {
     }
 
     .audio-container {
-        height: 95vh;
+        /* height: 55vh;  */
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: center;
-        row-gap: 40px;
-        width: 447px;
+        /* justify-content: center; */
+        /* row-gap: 1px;*/
+        margin-top:-22px;
     }
 }
 
 @media only screen and (min-width:450px) and (max-width:650px){
-    footer{
+    .footer{
         text-align: center;
         display: flex;
         justify-content: center;
@@ -213,12 +217,12 @@ h6 {
     }
 
     .audio-container {
-        height: 95vh;
+        /* height: 55vh;  */
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: center;
-        row-gap: 40px;
-        width: 528px;
+        /* justify-content: center; */
+        /* row-gap: 1px;*/
+        margin-top:-22px;
     }
 }
